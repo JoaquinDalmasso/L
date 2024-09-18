@@ -9,9 +9,10 @@ Title: Farm House
 
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
+import scene from 'scene.gltf'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/scene.gltf')
+  const { nodes, materials } = useGLTF({scene})
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={49.786}>

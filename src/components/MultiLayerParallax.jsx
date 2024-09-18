@@ -1,6 +1,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import LaAntoniaLogo from "../assets/LaAntoniaLogo.png"
+import imagenFull from "../../public/image-full.png"
+import imagenBottom from "../../public/image-bottom.png"
 
 export default function MultiLayerParallax() {
   const ref = useRef(null);
@@ -30,7 +32,7 @@ export default function MultiLayerParallax() {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/image-full.png)`,
+          backgroundImage: {imagenFull},
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
@@ -39,7 +41,7 @@ export default function MultiLayerParallax() {
       <div
         className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/image-bottom.png)`,
+          backgroundImage: {imagenBottom},
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}
