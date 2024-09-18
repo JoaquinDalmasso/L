@@ -1,4 +1,4 @@
-import MultiLayerParallax from "./components/MultiLayerParallax";
+import MultiLayerParallax from "./components/MultiLayerParallax.jsx";
 import LaCatolica from "./components/CampusUCC.jsx"
 import LaAntonia from "./components/LaAntoniaMision.jsx"
 
