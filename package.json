@@ -1,6 +1,7 @@
 {
   "name": "myapp",
   "private": true,
+  "homepage": "https://joaquindalmasso.github.io/LaAntonia",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
