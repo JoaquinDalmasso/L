@@ -12,7 +12,7 @@ function App() {
       <LaAntonia/>
         <div className="max-w-lg space-y-4 mx-auto py-24 text-black">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            Antonia orem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
             earum nobis quasi repellat. Amet facere nulla dolorum accusantium
             sit dolores odio excepturi facilis laboriosam officiis dolorem,
             nobis reprehenderit molestiae.
