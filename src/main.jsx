@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode basename='/LaAntonia/'>
+  <StrictMode>
     <App />
   </StrictMode>,
 )
