@@ -1,8 +1,6 @@
 import { React, useState, Suspense }  from 'react';
 import svgSpoon from "../assets/spoon.svg"
-import fotoKnife from "../assets/knife.png"
-
-import Casa from "../assets/Casa"
+import Casa from "../../public/Scene.jsx"
 import {Canvas} from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei';
 

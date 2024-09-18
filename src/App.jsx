@@ -6,8 +6,6 @@ function App() {
 
   return (
     <main>
-      
-      
       <div className="w-full bg-[#e9e2cd]">
       <MultiLayerParallax />
       <LaCatolica/>
