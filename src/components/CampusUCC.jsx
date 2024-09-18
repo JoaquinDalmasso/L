@@ -2,7 +2,7 @@ import { React, useState, Suspense }  from 'react';
 import svgSpoon from "../assets/spoon.svg"
 import fotoKnife from "../assets/knife.png"
 
-import Casa from "../../public/Casa"
+import Casa from "../assets/Casa"
 import {Canvas} from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei';
 
