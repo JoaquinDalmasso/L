@@ -2,6 +2,7 @@ import MultiLayerParallax from "./components/MultiLayerParallax.jsx";
 import LaCatolica from "./components/CampusUCC.jsx"
 import LaAntonia from "./components/LaAntoniaMision.jsx"
 
+//
 function App() {
 
   return (
@@ -10,7 +11,7 @@ function App() {
       <MultiLayerParallax />
       <LaCatolica/>
       <LaAntonia/>
-        <div className="max-w-lg space-y-4 mx-auto py-24 text-black">
+        <div className="max-w-lg py-24 mx-auto space-y-4 text-black">
           <p>
             Antonia orem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
             earum nobis quasi repellat. Amet facere nulla dolorum accusantium

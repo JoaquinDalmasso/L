@@ -1,7 +1,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import LaAntoniaLogo from "../assets/LaAntoniaLogo.png"
-
+import ImageFull from "../assets/image-full.png"
+import ImageBottom from "../assets/image-bottom.png"
 
 export default function MultiLayerParallax() {
   const ref = useRef(null);
@@ -15,7 +16,7 @@ export default function MultiLayerParallax() {
   return (
     <div
       ref={ref}
-      className="w-full h-screen overflow-hidden relative grid place-items-center"
+      className="relative grid w-full h-screen overflow-hidden place-items-center"
     >
       <motion.h1
         style={{ y: textY }}
